@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+}
+
+/* background image part*/
+.bg-image {
+  opacity: 0.85;
+  background-size: 100%;
+  height: 100%;
+  padding-bottom: 150px;
+  background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#profile-pic {
+  width:200px;
+
+}
+
+#btn {
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+div > .py-2 {
+   font-weight: bold;
+}
+
+/*text animation*/
+/*div > #txt-me {
+  animation : text 1.5s 1;
+}
+
+
+@keyframes text {
+  0%{
+    color: white;
+    margin-bottom: -40px;
+  }
+*/
+}
+
+#btn:hover {
+  font-weight: bold;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* end of background image part*/
+
+
+/*Navbar*/
+#navbar {
+  background-color: #17252A; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#navbar a {
+  font-size: 20px;
+  color: #DEF2F1;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+  font-size: 25px;
+  /*color: #3AAFA9;*/
+  color: #DEF2F1;
+}
+
+nav #pLogo {
+  width:  50px;   
+}
+
+
+/*End of Navbar*/
+
+
+/*Start of About me*/
+
+
+
+#about-me {
+
+    background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF);
+ /* background-color: #3AAFA9;*/
+}
+
+div #abt-text-2{
+  color: #17252A;
+  border-left: solid;
+  border-left-color: #2B7A78;
+  border-left-width: 5px;
+  /*font-weight: bold;*/
+  /*font-style: italic;*/
+   font-size: 25px;
+}
+
+
+div #abt-text {
+  font-weight: bold;
+  color: #17252A;
+  font-size: 50px;
+
+
+}
+
+div #logo {
+  color: #2B7A78;
+
+
+}
+/*End of About me*/
+
+/*Start of Project section*/
+div #proj-text {
+    font-weight: bold;
+    color: #17252A;
+    font-size: 50px;
+}
+
+div > div > div ul button li {
+  list-style-type: none;
+}
+
+#project {
+   background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+
+div  .proj-title {
+   font-weight: bold;
+  color: #17252A;
+  font-size: 30px;
+}
+
+
+/*div #p-text {
+  color: #17252A;
+  border-bottom: solid;
+  border-bottom-color: #2B7A78;
+  border-bottom-width: 5px;
+  
+
+}*/
+
+/*End of Project section*/
+
+
+/*ARtwork*/
+#artwork {
+   background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+/*End of Artwork*/
+
+/*Contact*/
+#contact {
+   background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+
+div #contact-txt {
+    font-weight: bold;
+    color: #17252A;
+    font-size: 50px;
+}
+
+div #contact-txt2{
+  color: #17252A;
+  border-right: solid;
+  border-right-color: #2B7A78;
+  border-right-width: 5px;
+}
+
+
+div #cbtn {
+
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+
+
+div div div .aImg {
+  padding: 15px;
+  transition: transform .2s; /* Animation */
+  margin: auto;
+ 
+
+}
+
+div div div .aImg:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  
+}
+/*End of Contact*/
+
+/*Footer*/
+#footer {
+  background-color: #17252A; 
+}
+
+footer div {
+  color: #DEF2F1;
+}
+/*End of footer*/
+
+
+
+/*Tools Section*/
+
+div #tools-txt {
+    font-weight: bold;
+    color: #17252A;
+    font-size: 50px;
+}
+
+#tools {
+    background-image: linear-gradient( #ebf7f6, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+
+div .icon-pic {
+  width: 80px;
+
+
+}
+/*End of Tools Section*/
+
+div #tools-txt2 {
+    font-weight: bold;
+    color: #17252A;
+    font-size: 50px;
+}
+
+/*para sa smooth transition*/
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
