@@ -4,6 +4,9 @@
   font-family: 'Arvo', serif;
 }
 
+
+
+
 /* background image part*/
 .bg-image {
   opacity: 0.85;
@@ -184,6 +187,7 @@ div div div .aImg {
   padding: 15px;
   transition: transform .2s; /* Animation */
   margin: auto;
+  border-radius: 30px;
  
 
 }
